@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EspanolGo — 旅行スペイン語・32発音記号・100本実境動画・リアルタイム双方向通訳</title>
+<meta name="description" content="全15課の体系的ロードマップ、中南米／スペイン32発音ルール＆24組の聞き分けテスト、100本の実境会話動画、12場面の対話練習と4言語対応双方向通訳を一つに。">
+<meta name="keywords" content="EspanolGo,スペイン語学習,旅行スペイン語,スペイン語発音,IPA,聞き分け,音声通訳,単語帳,AE Interactive">
+<meta name="theme-color" content="#070913">
+<meta name="apple-itunes-app" content="app-id=6837611917">
+<link rel="canonical" href="https://espanolgo.appengine.fun/?lang=ja">
+<link rel="alternate" hreflang="en" href="https://espanolgo.appengine.fun/?lang=en">
+<link rel="alternate" hreflang="zh-Hant" href="https://espanolgo.appengine.fun/?lang=zh-Hant">
+<link rel="alternate" hreflang="zh-Hans" href="https://espanolgo.appengine.fun/?lang=zh-Hans">
+<link rel="alternate" hreflang="ja" href="https://espanolgo.appengine.fun/?lang=ja">
+<link rel="alternate" hreflang="x-default" href="https://espanolgo.appengine.fun/">
+<link rel="icon" type="image/png" href="/images/icon.png">
+<link rel="apple-touch-icon" href="/images/icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="EspanolGo — 旅行スペイン語・32発音記号・100本実境動画・リアルタイム双方向通訳">
+<meta property="og:description" content="全15課の体系的ロードマップ、中南米／スペイン32発音ルール＆24組の聞き分けテスト、100本の実境会話動画、12場面の対話練習と4言語対応双方向通訳を一つに。">
+<meta property="og:url" content="https://espanolgo.appengine.fun/?lang=ja">
+<meta property="og:image" content="https://espanolgo.appengine.fun/images/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://espanolgo.appengine.fun/images/og.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "EspanolGo — Travel Spanish", "operatingSystem": "iOS 17.0+, iPadOS 17.0+", "applicationCategory": "EducationApplication", "downloadUrl": "https://apps.apple.com/app/id6837611917", "installUrl": "https://apps.apple.com/app/id6837611917", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "AE Interactive", "url": "https://appengine.fun"}}</script>
+<style>
+:root {
+  --bg: #070913;
+  --card: rgba(20, 24, 42, 0.86);
+  --card-solid: #14182a;
+  --border: rgba(255, 255, 255, 0.11);
+  --text: #F8FAFC;
+  --muted: #94A3B8;
+  --accent: #F97316;
+  --teal: #2DD4BF;
+  --amber: #FBBF24;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "PingFang TC", "PingFang SC", "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-image:
+    radial-gradient(ellipse 80% 42% at 50% -5%, rgba(249, 115, 22, 0.22) 0%, transparent 70%),
+    radial-gradient(circle at 86% 18%, rgba(45, 212, 191, 0.14) 0%, transparent 45%);
+  background-repeat: no-repeat;
+}
+a { color: inherit; }
+header { position: sticky; top: 12px; z-index: 100; padding: 0 16px; }
+nav {
+  max-width: 980px; margin: 0 auto; padding: 10px 16px;
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  background: rgba(11, 14, 28, 0.84);
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border); border-radius: 999px;
+  box-shadow: 0 12px 34px rgba(0,0,0,0.45);
+}
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: 17px; letter-spacing: -0.3px; }
+.brand img { width: 34px; height: 34px; border-radius: 9px; border: 1px solid rgba(251, 146, 60, 0.55); }
+.nav-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.nav-links { display: flex; gap: 14px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.nav-links a { text-decoration: none; transition: color .18s; }
+.nav-links a:hover, .nav-links a.active { color: #fff; }
+.lang-picker {
+  display: flex; align-items: center; gap: 4px;
+  background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.09);
+  padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700;
+}
+.lang-picker a { color: var(--muted); text-decoration: none; padding: 2px 6px; border-radius: 99px; }
+.lang-picker a.active { color: var(--teal); background: rgba(45,212,191,0.14); }
+main { max-width: 980px; margin: 0 auto; padding: 36px 18px 64px; }
+.hero { text-align: center; padding: 20px 0 36px; }
+.badge {
+  display: inline-block; font-size: 11px; font-weight: 800; letter-spacing: 0.7px;
+  color: var(--teal); background: rgba(45,212,191,0.12);
+  border: 1px solid rgba(45,212,191,0.34); padding: 6px 14px; border-radius: 999px; margin-bottom: 16px;
+}
+h1 { font-size: clamp(30px, 5.4vw, 54px); font-weight: 900; letter-spacing: -1.1px; line-height: 1.12; margin-bottom: 14px; text-wrap: balance; }
+h1 span { background: linear-gradient(125deg, #FB923C 0%, #FBBF24 46%, #2DD4BF 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.hero-sub { max-width: 680px; margin: 0 auto 22px; color: var(--muted); font-size: clamp(15px, 2vw, 18px); text-wrap: balance; }
+.status-pill {
+  display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px;
+  background: rgba(249,115,22,0.14); border: 1px solid rgba(251,146,60,0.4);
+  color: #FED7AA; font-size: 13px; font-weight: 700; margin-bottom: 22px;
+}
+.hero-cta { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; border-radius: 999px;
+  font-size: 14px; font-weight: 700; text-decoration: none; border: 1px solid transparent; cursor: pointer;
+  transition: transform .16s ease, box-shadow .16s ease, background .16s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn-primary { border: 0; background: linear-gradient(135deg, #EA580C, #14B8A6); color: #fff; box-shadow: 0 10px 26px rgba(234,88,12,0.32); }
+.btn-ghost { background: rgba(255,255,255,0.06); border-color: var(--border); color: #E2E8F0; }
+.btn-appstore {
+  background: #fff; color: #090D16; border: 1px solid rgba(255,255,255,0.85);
+  padding: 9px 20px; gap: 10px; box-shadow: 0 12px 30px rgba(255,255,255,0.16), 0 8px 24px rgba(249,115,22,0.28);
+}
+.btn-appstore svg { width: 20px; height: 24px; fill: currentColor; flex-shrink: 0; }
+.btn-appstore .as-copy { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.12; text-align: left; }
+.btn-appstore .as-sub { font-size: 10px; font-weight: 700; opacity: 0.72; letter-spacing: 0.2px; }
+.btn-appstore .as-main { font-size: 15px; font-weight: 850; letter-spacing: -0.2px; }
+.nav-cta {
+  display: inline-flex; align-items: center; gap: 6px; padding: 6px 14px; border-radius: 999px;
+  background: linear-gradient(135deg, #EA580C, #14B8A6); color: #fff; text-decoration: none;
+  font-size: 12.5px; font-weight: 800; box-shadow: 0 4px 14px rgba(234,88,12,0.35);
+  transition: transform .16s ease, filter .16s ease;
+}
+.nav-cta:hover { transform: translateY(-1px); filter: brightness(1.08); }
+.pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; }
+.price-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 22px; padding: 24px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 18px;
+}
+.price-card.pro {
+  border-color: rgba(45, 212, 191, 0.55);
+  background: linear-gradient(160deg, rgba(249,115,22,0.16), rgba(20,24,42,0.94) 45%, rgba(20,184,166,0.14));
+  box-shadow: 0 18px 40px rgba(0,0,0,0.42);
+}
+.price-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.price-tag { font-size: 11px; font-weight: 800; color: var(--teal); letter-spacing: 0.4px; margin-bottom: 4px; }
+.price-title { font-size: 20px; font-weight: 850; color: #fff; }
+.price-num { font-size: 26px; font-weight: 900; color: #fff; white-space: nowrap; }
+.price-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.price-list li { display: flex; gap: 9px; font-size: 14px; color: #CBD5E1; line-height: 1.45; }
+.price-list li span.chk { color: var(--teal); font-weight: 900; flex-shrink: 0; }
+.price-card .btn-appstore { justify-content: center; }
+.cta-banner {
+  margin-top: 56px; padding: 34px 24px; border-radius: 26px; text-align: center;
+  background: linear-gradient(135deg, rgba(249,115,22,0.2), rgba(20,184,166,0.18));
+  border: 1px solid rgba(45,212,191,0.35);
+  display: flex; flex-direction: column; align-items: center; gap: 14px;
+}
+.cta-banner img { width: 64px; height: 64px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.25); box-shadow: 0 10px 28px rgba(0,0,0,0.4); }
+.cta-banner h2 { margin-bottom: 0; }
+.cta-banner p { color: #CBD5E1; max-width: 540px; font-size: 15px; }
+section { margin-top: 56px; }
+.sec-head { text-align: center; margin-bottom: 24px; }
+.sec-head .badge { margin-bottom: 10px; }
+h2 { font-size: clamp(22px, 3.6vw, 34px); font-weight: 850; letter-spacing: -0.6px; margin-bottom: 8px; }
+.sec-sub { color: var(--muted); max-width: 620px; margin: 0 auto; font-size: 15px; }
+.audio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+.audio-card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 16px;
+  display: flex; flex-direction: column; justify-content: space-between; gap: 12px;
+  transition: border-color .2s, transform .2s;
+}
+.audio-card.playing { border-color: var(--teal); box-shadow: 0 0 0 1px rgba(45,212,191,0.3), 0 14px 32px rgba(0,0,0,0.4); }
+.audio-tag { font-size: 11px; font-weight: 700; color: var(--teal); letter-spacing: 0.3px; }
+.audio-es { font-size: 18px; font-weight: 800; margin-top: 6px; color: #fff; line-height: 1.3; }
+.audio-ipa { font-size: 12.5px; color: #FDBA74; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; margin-top: 6px; }
+.audio-ipa b { background: rgba(45, 212, 191, 0.2); color: #5EEAD4; padding: 0 4px; border-radius: 4px; }
+.audio-meaning { font-size: 13px; color: var(--muted); margin-top: 6px; }
+.play-btn {
+  align-self: flex-start; background: rgba(249,115,22,0.2); color: #FED7AA; border: 1px solid rgba(251,146,60,0.45);
+  padding: 6px 14px; border-radius: 999px; font-size: 12.5px; font-weight: 700; cursor: pointer;
+}
+.audio-card.playing .play-btn { background: var(--teal); color: #042F2E; border-color: var(--teal); }
+.gallery-strip {
+  display: flex; gap: 16px; overflow-x: auto; padding: 8px 4px 16px; scroll-snap-type: x mandatory;
+}
+.shot-card {
+  flex: 0 0 230px; scroll-snap-align: start; background: var(--card); border: 1px solid var(--border);
+  border-radius: 20px; padding: 10px; text-align: center;
+}
+.shot-card.wide { flex: 0 0 340px; }
+.shot-card img { width: 100%; height: auto; border-radius: 14px; display: block; }
+.shot-cap { font-size: 12.5px; font-weight: 700; color: #CBD5E1; margin-top: 9px; }
+.bento { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.bento-card { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 20px; }
+.bento-icon { font-size: 24px; margin-bottom: 10px; }
+.bento-card h3 { font-size: 17px; font-weight: 800; margin-bottom: 6px; color: #fff; }
+.bento-card p { font-size: 14px; color: var(--muted); }
+.doc-box { max-width: 780px; margin: 14px auto; background: var(--card); border: 1px solid var(--border); border-radius: 22px; padding: 28px; }
+.doc-box h1 { font-size: clamp(24px, 4vw, 36px); text-align: left; }
+.doc-item { margin-top: 22px; padding-top: 18px; border-top: 1px solid var(--border); }
+.doc-item h2 { font-size: 18px; margin-bottom: 6px; color: #E2E8F0; }
+.doc-item p { font-size: 14.5px; color: var(--muted); }
+footer {
+  max-width: 980px; margin: 36px auto 0; padding: 24px 18px 42px;
+  border-top: 1px solid var(--border);
+  display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;
+  color: var(--muted); font-size: 13px;
+}
+footer a { color: #CBD5E1; text-decoration: none; }
+footer a:hover { color: var(--teal); }
+@media (max-width: 680px) {
+  nav { border-radius: 22px; padding: 10px 14px; }
+  .nav-right { gap: 8px; }
+  .hero-cta .btn { width: 100%; justify-content: center; max-width: 300px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn, .audio-card { transition: none; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <nav aria-label="Main navigation">
+    <a class="brand" href="/?lang=ja">
+      <img src="/images/icon.webp" alt="EspanolGo Icon" width="34" height="34">
+      <span>EspanolGo</span>
+    </a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="/privacy?lang=ja">プライバシーポリシー</a>
+        <a href="/support?lang=ja">サポート</a>
+      </div>
+      <div class="lang-picker" role="navigation" aria-label="Language"><a href="/?lang=en">EN</a><a href="/?lang=zh-Hant">繁中</a><a href="/?lang=zh-Hans">简中</a><a href="/?lang=ja" class="active">日本語</a></div>
+      <a class="nav-cta" href="https://apps.apple.com/app/id6837611917" target="_blank" rel="noopener noreferrer">無料入手</a>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="badge">全15課 · 32発音+24聞き分け · 100本実境動画 · 4言語双方向通訳</div>
+    <h1>現地に到着する前に、<span>通じるスペイン語を口から</span></h1>
+    <p class="hero-sub">5つの明瞭な母音や巻き舌rr、100本の旅行実境動画、店員が先に話しかける12場面の対話練習、リアルタイム双方向音声通訳まで——登録不要・広告ゼロで快適に。</p>
+    <div class="status-pill"> iOS 17+ &amp; iPadOS 17+ 対応 · 英語・繁体字・簡体字・日本語UI</div>
+    <div class="hero-cta">
+      <a class="btn btn-appstore" href="https://apps.apple.com/app/id6837611917" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span class="as-copy"><span class="as-sub">無料でダウンロード</span><span class="as-main">App Store</span></span></a>
+      <a class="btn btn-primary" href="#audio">▶ ネイティブ音声を試聴</a>
+      <a class="btn btn-ghost" href="#preview">アプリ画面を見る ↓</a>
+    </div>
+  </section>
+
+  <section id="audio">
+    <div class="sec-head">
+      <div class="badge">アプリ収録のスタジオ音声 · 見やすいスペイン語IPA表記</div>
+      <h2>旅先でそのまま使えるスペイン語を試聴</h2>
+      <p class="sec-sub">EspanolGoに収録された320語の例文MP3から厳選——発音しないHや喉音J /x/ の響きを体感できます。</p>
+    </div>
+    <div class="audio-grid">
+        <article class="audio-card" id="card-0">
+          <div>
+            <div class="audio-tag">レストラン・別会計</div>
+            <div class="audio-es">¿Podemos pagar por separado?</div>
+            <div class="audio-ipa">/poˈðemos paˈɣaɾ poɾ sepaˈ<b>ɾaðo</b>/ · por <b>separado</b></div>
+            <div class="audio-meaning">別々にお支払いできますか？</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p0','/audio/split.mp3',this,document.getElementById('card-0'),'再生','再生中')">▶ 再生</button>
+        </article>
+        <article class="audio-card" id="card-1">
+          <div>
+            <div class="audio-tag">カフェ・b/v の柔らかい発音</div>
+            <div class="audio-es">¿Tienen leche de avena o de almendras?</div>
+            <div class="audio-ipa">/ˈtjenen ˈletʃe ðe aˈ<b>β</b>ena o ðe alˈmendɾas/ · <b>b/v</b> → /β/</div>
+            <div class="audio-meaning">オーツミルクかアーモンドミルクはありますか？</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p1','/audio/oatmilk.mp3',this,document.getElementById('card-1'),'再生','再生中')">▶ 再生</button>
+        </article>
+        <article class="audio-card" id="card-2">
+          <div>
+            <div class="audio-tag">会計・喉音 J /x/</div>
+            <div class="audio-es">¿Puedo pagar con tarjeta?</div>
+            <div class="audio-ipa">/ˈpweðo paˈɣaɾ kon taɾˈ<b>x</b>eta/ · tar<b>j</b>eta (/x/)</div>
+            <div class="audio-meaning">カードで支払えますか？</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p2','/audio/card.mp3',this,document.getElementById('card-2'),'再生','再生中')">▶ 再生</button>
+        </article>
+        <article class="audio-card" id="card-3">
+          <div>
+            <div class="audio-tag">ホテル受付・発音しない H</div>
+            <div class="audio-es">Hola, vengo a hacer el check-in.</div>
+            <div class="audio-ipa">/ˈ<b>o</b>la ˈβeŋɡo a aˈ<b>seɾ</b> el tʃekˈin/ · Silent <b>H</b></div>
+            <div class="audio-meaning">こんにちは、チェックインをお願いします。</div>
+          </div>
+          <button type="button" class="play-btn" onclick="togglePhrase('p3','/audio/checkin.mp3',this,document.getElementById('card-3'),'再生','再生中')">▶ 再生</button>
+        </article></div>
+  </section>
+
+  <section id="preview">
+    <div class="sec-head">
+      <div class="badge">アプリ画面プレビュー · IPHONE &amp; IPAD</div>
+      <h2>片手縦持ちで移動中も迷わず確認</h2>
+      <p class="sec-sub">標準／大／特大の3段階文字サイズ調整に加え、iPad 13インチの大画面にも最適化されています。</p>
+    </div>
+    <div class="gallery-strip">
+        <div class="shot-card">
+          <img src="/images/ja_s01.webp" alt="全15課の学習ロードマップ" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">全15課の学習ロードマップ</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/ja_s02.webp" alt="12場面・実践会話ロールプレイ" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">12場面・実践会話ロールプレイ</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/ja_s03.webp" alt="4言語対応リアルタイム双方向通訳" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">4言語対応リアルタイム双方向通訳</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/ja_s04.webp" alt="100本の旅行・日常実境動画" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">100本の旅行・日常実境動画</div>
+        </div>
+        <div class="shot-card">
+          <img src="/images/ja_s05.webp" alt="32発音ルール＆24組聞き分け" loading="lazy" width="640" height="1390">
+          <div class="shot-cap">32発音ルール＆24組聞き分け</div>
+        </div>
+        <div class="shot-card wide">
+          <img src="/images/ja_ipad.webp" alt="iPad 13インチ 会話練習画面" loading="lazy" width="760" height="1013">
+          <div class="shot-cap">iPad 13インチ 会話練習画面</div>
+        </div></div>
+  </section>
+
+  <section id="features">
+    <div class="sec-head">
+      <div class="badge">5つの統合モジュール</div>
+      <h2>発音の基礎から現地での会話サポートまでこれ一本</h2>
+    </div>
+    <div class="bento">
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">📚</div>
+          <h3>全15課の学習ルート＆18問の文法ドリル</h3>
+          <p>5つの母音とアクセント位置の基礎から、巻き舌rr、ser/estar、por/para、カフェ・電車・ホテル・病院表現まで段階的に習得。</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">🎬</div>
+          <h3>100本の実境旅行会話動画（音声200本）</h3>
+          <p>食事・買物・空港交通・宿泊・緊急時の5カテゴリを時系列に収録。二言語台詞・IPA・文化解説付き。</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">🎧</div>
+          <h3>32発音ラボ＆24組の聞き分けテスト</h3>
+          <p>中南米（LatAm）とスペイン（España）IPAをワンタップ切替。舌の位置ガイドとブラインド聴き比べで pero / perro を完全攻略。</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">💬</div>
+          <h3>店員が先に話す12場面ロールプレイ</h3>
+          <p>端末内言語モデルを活用した対話練習。ヒントを見ながら3ステップのミッションを達成でき、静かな場所ではキーボード入力も可能。</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">🗣️</div>
+          <h3>双方向リアルタイム音声通訳＆160語SRS単語帳</h3>
+          <p>日本語・英語・繁体字・簡体字 ⇄ スペイン語の音声通訳（全画面表示対応）と320本音声付きSM-2単語カードを搭載。</p>
+        </article>
+        <article class="bento-card">
+          <div class="bento-icon" aria-hidden="true">🔒</div>
+          <h3>ログイン不要・端末内プライバシー徹底</h3>
+          <p>広告SDKや外部トラッキングは一切なし（NSPrivacyTracking = false）。学習記録は端末内のUserDefaultsのみに保存されます。</p>
+        </article></div>
+  </section>
+
+  <section id="pricing">
+    <div class="sec-head">
+      <div class="badge">月額課金なし・無料で体験</div>
+      <h2>充実の無料範囲・一度きりの $3.99 買い切り</h2>
+      <p class="sec-sub">まずは32発音・単語帳・第1〜3課・厳選動画10本を無料で体験し、必要になった時に一回買い切りで永久解放できます。</p>
+    </div>
+    <div class="pricing-grid">
+      <article class="price-card">
+        <div>
+          <div class="price-head">
+            <div>
+              <div class="price-tag">ESPANOLGO FREE</div>
+              <div class="price-title">ずっと無料プラン</div>
+            </div>
+            <div class="price-num">無料 $0</div>
+          </div>
+          <ul class="price-list" style="margin-top:16px;"><li><span class="chk">✓</span><span>32の中南米／スペインIPA発音規則＆24組聞き分けテスト</span></li><li><span class="chk">✓</span><span>160語のSM-2単語カード（音声320本）＆文法ドリル18問</span></li><li><span class="chk">✓</span><span>第1〜3課の全レッスン＋旅行会話動画10本（各カテゴリ2本）</span></li><li><span class="chk">✓</span><span>毎日の無料枠：会話練習（5回/日）・双方向音声通訳（8回/日）</span></li></ul>
+        </div>
+        <a class="btn btn-ghost" style="justify-content:center;" href="https://apps.apple.com/app/id6837611917" target="_blank" rel="noopener noreferrer">App Storeで無料入手</a>
+      </article>
+      <article class="price-card pro">
+        <div>
+          <div class="price-head">
+            <div>
+              <div class="price-tag">一回買い切り · サブスクなし</div>
+              <div class="price-title">EspanolGo Pro 買い切り版</div>
+            </div>
+            <div class="price-num">$3.99</div>
+          </div>
+          <ul class="price-list" style="margin-top:16px;"><li><span class="chk">✓</span><span>全15課の旅行スペイン語カリキュラムを永久解放（第4〜15課）</span></li><li><span class="chk">✓</span><span>100本すべての実境会話動画＆200本のネイティブ音声を解放</span></li><li><span class="chk">✓</span><span>12場面×3ステップの実践会話ロールプレイが回数無制限</span></li><li><span class="chk">✓</span><span>4言語対応リアルタイム双方向音声通訳を無制限利用</span></li></ul>
+        </div>
+        <a class="btn btn-appstore" href="https://apps.apple.com/app/id6837611917" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span class="as-copy"><span class="as-sub">無料でダウンロード</span><span class="as-main">App Store</span></span></a>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <img src="/images/icon.webp" alt="EspanolGo" width="64" height="64">
+    <h2>スペイン・中南米旅行の準備を始めませんか？</h2>
+    <p>iPhone・iPadで今すぐ無料ダウンロード。アカウント作成は不要です。</p>
+    <a class="btn btn-appstore" href="https://apps.apple.com/app/id6837611917" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span class="as-copy"><span class="as-sub">無料でダウンロード</span><span class="as-main">App Store</span></span></a>
+  </section>
+</main>
+
+<footer>
+  <div>© 2026 AE Interactive. All rights reserved.</div>
+  <div style="display:flex;gap:16px;flex-wrap:wrap;">
+    <a href="/?lang=ja">EspanolGo</a>
+    <a href="https://apps.apple.com/app/id6837611917" target="_blank" rel="noopener noreferrer">App Store</a>
+    <a href="/privacy?lang=ja">プライバシーポリシー</a>
+    <a href="/support?lang=ja">サポート</a>
+    <a href="https://appengine.fun" target="_blank" rel="noopener noreferrer">AE Interactive スタジオ</a>
+    <a href="mailto:help@appengine.fun">help@appengine.fun</a>
+  </div>
+</footer>
+<script>
+const audioMap = {};
+let activeKey = null;
+function togglePhrase(key, src, btnEl, cardEl, playLabel, playingLabel) {
+  if (activeKey && activeKey !== key && audioMap[activeKey]) {
+    audioMap[activeKey].audio.pause();
+    audioMap[activeKey].audio.currentTime = 0;
+    audioMap[activeKey].btn.textContent = "▶ " + playLabel;
+    audioMap[activeKey].card.classList.remove("playing");
+  }
+  let item = audioMap[key];
+  if (!item) {
+    const a = new Audio(src);
+    item = { audio: a, btn: btnEl, card: cardEl };
+    a.addEventListener("ended", () => {
+      btnEl.textContent = "▶ " + playLabel;
+      cardEl.classList.remove("playing");
+      if (activeKey === key) activeKey = null;
+    });
+    audioMap[key] = item;
+  }
+  if (!item.audio.paused) {
+    item.audio.pause();
+    item.audio.currentTime = 0;
+    btnEl.textContent = "▶ " + playLabel;
+    cardEl.classList.remove("playing");
+    activeKey = null;
+  } else {
+    item.audio.play();
+    btnEl.textContent = "■ " + playingLabel;
+    cardEl.classList.add("playing");
+    activeKey = key;
+  }
+}
+</script>
+</body>
+</html>
